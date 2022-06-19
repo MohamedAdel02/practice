@@ -1,0 +1,38 @@
+.up{
+    margin:40px auto;
+    width:220px;
+    perspective:300px;
+}
+.box{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    transform-style:preserve-3d ;
+    transition: transform 1s;
+}.box:hover{
+    transform: rotateY(-180deg);
+}
+.box .face{
+    backface-visibility: hidden;
+}
+.front{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url(1.jpg);
+    background-repeat: no-repeat;
+    background-size:contain; 
+}
+.back{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #DDD;
+    transform: rotateY(180deg);
+}
+.back::before{
+    content: "Name:Mohamed Age : 25 years Country : Egypt  phone: 01153527576";
+    color: red;
+    font-size: 30px;
+    font-weight: bold; 
+}

@@ -1,0 +1,40 @@
+
+ body{
+     margin: 0;
+     padding: 0;
+     background-color: rgba(0, 0, 0, 0.849);
+     font-family: Arial, Helvetica, sans-serif;
+ }
+.spinner{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.spinner span{
+    font-size: 80px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.spinner::before{
+    content: "";
+    background-color: white;
+    width: 100px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    mix-blend-mode: difference;
+    animation: spin 4s infinite linear; 
+}
+@keyframes spin{
+    0%, 100%{
+        left: 0;
+    }
+    50%{
+        left: 75%;
+    }
+}
+
+

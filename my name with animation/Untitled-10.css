@@ -1,0 +1,125 @@
+.up{
+    width: 300px;
+    height: 70px;
+    margin: 250px auto;
+    padding: 10px;
+    background-color: black;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.one{
+    animation-name: r;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes r {
+    from{
+        color: rgb(245, 166, 166);
+    }
+    to{
+        color:red;
+     }
+}
+.two{
+    animation-name: u;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; 
+    animation-delay: .2s;
+}
+@keyframes u {
+    from{
+        color:rgb(93, 93, 235);
+    }
+    to{
+        color: rgb(255, 1, 221); 
+     }
+}
+.three{
+    animation-name: d;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: .4s;
+}
+@keyframes d {
+    from{
+        color:cornflowerblue;
+    }
+    to{
+        color: rgb(8, 241, 0); 
+     }
+}
+.four{
+    animation-name: n;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: .6s;;
+}
+@keyframes n {
+    from{
+        color:rgb(62, 112, 206);
+    }
+    to{
+        color: rgb(247, 8, 175); 
+     }
+}
+.five{
+    animation-name: i;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: .8s;;
+}
+@keyframes i {
+    from{
+        color:rgb(253, 174, 145)
+    }
+    to{
+        color: rgb(70, 6, 248); 
+     }
+}
+.six{
+    animation-name: p;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 1s;;
+}
+@keyframes p {
+    from{
+        color:rgb(102, 92, 255)
+    }
+    to{
+        color: rgb(217, 255, 2); 
+     }
+}
+.seven{
+    animation-name: s;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 1.2s;
+}
+@keyframes s {
+    from{
+        color:rgb(182, 179, 179);
+    }
+    to{
+        color: rgb(179, 8, 110); 
+     }
+}
+
